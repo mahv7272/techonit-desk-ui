@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Signin() {
     return (
         <>
-            <div className="flex flex-col justify-center h-[100%] px-8 md:px-[20%] lg:px-[30%]">
+            <div className="flex flex-col justify-center h-[100%] px-8 md:px-[20%] lg:px-[35%]">
                 {/* Image And Text */}
                 <div className="text-center flex flex-col mb-12">
                     <div className='grid mb-3'>
@@ -18,7 +18,7 @@ export default function Signin() {
                 <div>
                     <div className="mb-9">
                         <input
-                            className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+                            className='text-center tracking-wider bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                             maxLength={11}
                             type='text'
                             placeholder='Phone Number' />
