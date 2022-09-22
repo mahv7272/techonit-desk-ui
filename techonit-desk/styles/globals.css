@@ -30,3 +30,127 @@ a {
     background: #0e0e2a;
   }
 } */
+
+svg#freepik_stories-smart-home:not(.animated) .animable {
+  opacity: 0;
+}
+
+svg#freepik_stories-smart-home.animated #freepik--Clouds--inject-2 {
+  animation: 2.5s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) fadeIn;
+  animation-delay: 1s;
+  opacity: 0
+}
+
+svg#freepik_stories-smart-home.animated #freepik--Plants--inject-2 {
+  animation: 1.3s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideLeft;
+  animation-delay: 0.3s;
+  opacity: 0
+}
+
+svg#freepik_stories-smart-home.animated #freepik--Lamp--inject-2 {
+  animation: 0.6s 1 forwards ease-in slideDown;
+  animation-delay: 0.6s;
+  opacity: 0
+}
+
+svg#freepik_stories-smart-home.animated #freepik--Pictures--inject-2 {
+  animation: 1s 1 forwards ease-in fadeIn;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-smart-home.animated #freepik--Television--inject-2 {
+  animation: 0.6s 1 forwards ease-in slideDown;
+  animation-delay: 0.5s;
+  opacity: 0
+}
+
+svg#freepik_stories-smart-home.animated #freepik--Thermostat--inject-2 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) fadeIn;
+  animation-delay: 0.8s;
+  opacity: 0
+}
+
+svg#freepik_stories-smart-home.animated #freepik--Carpet--inject-2 {
+  animation: 0.6s 1 forwards ease-in slideRight;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-smart-home.animated #freepik--Sofas--inject-2 {
+  animation: 0.5s 1 forwards ease-in slideUp;
+  animation-delay: 0.8s;
+  opacity: 0
+}
+
+svg#freepik_stories-smart-home.animated #freepik--Roof--inject-2 {
+  animation: 1.1s 1 forwards ease-in slideDown;
+  animation-delay: 0.3s;
+  opacity: 0
+}
+
+svg#freepik_stories-smart-home.animated #freepik--speech-bubbles--inject-2 {
+  animation: 1.1s 1 forwards ease-in fadeIn;
+  animation-delay: 1.5s;
+  opacity: 0
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: inherit;
+  }
+}
+
+.animator-hidden {
+  display: none;
+}
