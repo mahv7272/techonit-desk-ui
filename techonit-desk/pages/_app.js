@@ -4,6 +4,7 @@ import MainLayout from '../components/main/layouts/layout'
 import ManageLayout from '../components/manage/layouts/layout'
 
 import '../styles/globals.css'
+import '../components/manage/layouts/vertical-layout.css'
 
 function MyApp({ Component, pageProps }) {
   // set layout
