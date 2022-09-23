@@ -1,7 +1,6 @@
-import Image from 'next/image'
 import Link from 'next/link'
 
-const Navbar = ({ handleToggleMenu, handleToggleThemeMode }) => {
+const Navbar = ({ handleToggleMenu }) => {
     return (
         <nav className="bg-slate-100 dark:bg-slate-800 dark:text-gray-200 dark:shadow-md border-gray-600 px-2 sm:px-4 rounded-b select-none">
             <div className="flex flex-wrap justify-between">
@@ -15,7 +14,7 @@ const Navbar = ({ handleToggleMenu, handleToggleThemeMode }) => {
                         <li className='h-full flex flex-col justify-center'>
                             <Link href='/manage/user/new'>
                                 <a className='flex items-center p-4 cursor-pointer h-full text-gray-600 hover:text-gray-400 dark:text-slate-300 dark:hover:text-slate-50 '>
-                                    New User
+                                    New Structure
                                 </a>
                             </Link>
                         </li>
@@ -35,12 +34,12 @@ const Navbar = ({ handleToggleMenu, handleToggleThemeMode }) => {
                             </li>
                         </ul>
                     </div>
-                    <div>
+                    {/* <div>
                         <button type="button" className="flex ml-3 text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="dropdown">
                             <span className="sr-only">Open user menu</span>
-                            <img className="w-8 h-8 rounded-full" src="/assets/images/profile/default.png" alt="user" />
+                            <img className="w-8 h-8 rounded-full" src="" alt="user" />
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </nav>
