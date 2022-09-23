@@ -70,7 +70,8 @@ const Sidebar = ({ handleToggleMenu, isShowMenu }) => {
                 <div className="extra truncate">Profile</div>
               </a>
             </Link>
-          </li>        </ul>
+          </li>
+        </ul>
       </div>
     </div>
   );
