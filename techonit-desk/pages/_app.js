@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Technology On It {Component.title ? ' - ' + Component.title : ''}</title>
+        <title>{Component.title ? Component.title + ' - ' : ''}Technology On It</title>
         if(Component.description){
           <meta name="description" content={Component.description} />
         }
