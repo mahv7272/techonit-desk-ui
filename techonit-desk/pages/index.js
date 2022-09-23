@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className='mb-[8rem]'>
           <h1 className={styles.title}>
-            Welcome to <a href="https://nextjs.org">Desk!</a>
+            Welcome to <a href="/">Desk!</a>
           </h1>
         </div>
         <div>
