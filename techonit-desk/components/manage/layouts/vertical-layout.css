@@ -41,6 +41,7 @@
     -ms-flex-align: center;
     align-items: center;
     /* padding: .75rem .75rem; */
+    transition: all 0.5s;
 }
 
     .main-menu ul li a i {

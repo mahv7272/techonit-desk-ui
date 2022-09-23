@@ -10,8 +10,9 @@ const Sidebar = ({ handleToggleMenu, isShowMenu }) => {
 
   return (
     <div
-      className="menu-fixed main-menu min-h-screen border-l text-navygreen-700 bg-slate-100 border-slate-200 dark:text-slate-200 dark:bg-slate-900 dark:border-slate-700"
-      style={{ touchAction: "none", userSelect: "none" }}>
+      className="menu-fixed main-menu min-h-screen border-l text-primary-500 bg-slate-100 border-slate-200 dark:text-slate-200 dark:bg-slate-900 dark:border-slate-700"
+      style={{ touchAction: "none", userSelect: "none" }}
+      >
       <div className="mobile-header mb-3">
         <div className="w-full px-2">
           <button className="close p-3 pt-3.5 text-2xl" onClick={handleToggleMenu}>
