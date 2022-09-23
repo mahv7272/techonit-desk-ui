@@ -17,7 +17,10 @@ function MyApp({ Component, pageProps }) {
         if(Component.description){
           <meta name="description" content={Component.description} />
         }
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name='viewport'
+          content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover'
+        />
       </Head>
       <Layout>
         <Component {...pageProps} />
