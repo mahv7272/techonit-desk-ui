@@ -4,7 +4,10 @@
 
 @layer components {
   .btn {
-    @apply px-4 py-2 rounded text-sm items-center font-bold
+    @apply px-4 py-2 rounded items-center font-bold
+  }
+  .btn-lg {
+    @apply px-4 py-2.5 rounded-lg items-center font-bold text-lg
   }
   .btn-primary {
     @apply bg-primary-500 hover:bg-primary-400 text-primary-50 hover:text-slate-50 hover:shadow-primary-400/50 dark:bg-indigo-600 dark:hover:bg-indigo-500 dark:hover:shadow-slate-500/50
