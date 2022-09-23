@@ -13,11 +13,13 @@ export default function Home() {
         </div>
         <div>
           <Link href='/auth/signin'>
-            <a className='p-3 rounded-md border-2'>Signin to account</a>
+            <a className='btn btn-primary'>Signin to account</a>
+          </Link>
+          <Link href='/manage'>
+            <a className='btn btn-primary-outline ml-2'>Panel</a>
           </Link>
         </div>
       </main>
-
       <footer className={styles.footer}>
         <a
           href="https://github.com/TechOnIt"
