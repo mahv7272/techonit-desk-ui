@@ -3,7 +3,7 @@ import Sidebar from "./sidebar";
 import { useState } from "react";
 
 export default function Layout({ children }) {
-    const [isShowMenu, setIsShowMenu] = useState(false);
+    const [isShowMenu, setIsShowMenu] = useState(true);
     const handleToggleMenu = () => {
         setIsShowMenu(isShowMenu === true ? false : true);
       };
@@ -38,4 +38,4 @@ export default function Layout({ children }) {
             </div>
         </>
     );
-}  
+}
