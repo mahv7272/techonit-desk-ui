@@ -27,7 +27,7 @@ export default function Signin() {
                         <Link href='/'>
                             <a className='px-3 py-2'>Back</a>
                         </Link>
-                        <button className="bg-gradient-to-tr from-primary-100 to-primary-500 px-7 py-2 rounded-lg">Login</button>
+                        <button className="btn btn-primary">Login</button>
                     </div>
                 </div>
             </div>
