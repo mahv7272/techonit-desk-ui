@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const SuggestForNew = () => {
   return (
-    <div className='text-center px-8 flex flex-col justify-center min-h-[80vh] gap-24'>
+    <div className='text-center flex flex-col justify-center min-h-[80vh] gap-24'>
       <div>
         <div>
           {/* Image */}
