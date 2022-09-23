@@ -64,22 +64,13 @@ const Sidebar = ({ handleToggleMenu, isShowMenu }) => {
             </Link>
           </li>
           <li className="nav-item py-1">
-            <Link href="/manage/user">
-              <a className={`nav-link ${isCurrentPage("/manage/user")} dark:hover:text-slate-100 p-3`}>
-                <i className="far fa-users dark:text-slate-300"></i>
-                <div className="extra truncate">Users</div>
+            <Link href="/manage/profile">
+              <a className={`nav-link ${isCurrentPage("/manage/profile")} dark:hover:text-slate-100 p-3`}>
+                <i className="far fa-user dark:text-slate-300"></i>
+                <div className="extra truncate">Profile</div>
               </a>
             </Link>
-          </li>
-          <li className="nav-item py-1">
-            <Link href="/manage/role">
-              <a className={`nav-link ${isCurrentPage("/manage/role")} dark:hover:text-slate-100 p-3`}>
-                <i className="fa fa-certificate dark:text-slate-300"></i>
-                <div className="extra truncate">Roles & Permissions</div>
-              </a>
-            </Link>
-          </li>
-        </ul>
+          </li>        </ul>
       </div>
     </div>
   );
