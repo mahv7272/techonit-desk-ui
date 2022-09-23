@@ -4,7 +4,25 @@
 
 @layer components {
   .btn {
-    @apply px-4 py-3 rounded text-sm items-center
+    @apply px-4 py-2 rounded text-sm items-center font-bold
+  }
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-400 text-primary-50 hover:text-slate-50 hover:shadow-primary-400/50 dark:bg-indigo-600 dark:hover:bg-indigo-500 dark:hover:shadow-slate-500/50
+  }
+  .btn-primary-outline {
+    @apply border-2 border-primary-500 hover:bg-primary-500 text-primary-500 hover:text-slate-50 hover:shadow-primary-400/50 dark:bg-indigo-600 dark:hover:bg-indigo-500 dark:hover:shadow-slate-500/50
+  }
+  .btn-secondary {
+    @apply bg-primary-800 hover:bg-primary-600 text-primary-50 hover:text-slate-50 hover:shadow-primary-400/50 dark:bg-indigo-600 dark:hover:bg-indigo-500 dark:hover:shadow-slate-500/50
+  }
+  .btn-secondary-outline {
+    @apply border-2 border-primary-700 hover:bg-primary-800 text-primary-800 hover:text-slate-50 hover:shadow-primary-400/50 dark:bg-indigo-600 dark:hover:bg-indigo-500 dark:hover:shadow-slate-500/50
+  }
+  .btn-legendary {
+    @apply bg-gradient-to-tr from-primary-100 to-primary-600
+    hover:bg-gradient-to-r hover:from-primary-200 hover:to-primary-700
+    text-slate-50 hover:text-slate-100 hover:shadow-primary-400/50
+    dark:bg-indigo-600 dark:hover:bg-indigo-500 dark:hover:shadow-slate-500/50
   }
 }
 
