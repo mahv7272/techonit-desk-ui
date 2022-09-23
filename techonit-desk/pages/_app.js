@@ -5,6 +5,7 @@ import ManageLayout from '../components/manage/layouts/layout'
 
 import '../styles/globals.css'
 import '../components/manage/layouts/vertical-layout.css'
+import "../styles/libs/font-awesome/css/fontawesome.min.css"
 
 function MyApp({ Component, pageProps }) {
   // set layout
