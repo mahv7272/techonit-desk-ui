@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import DeviceControler from '../../components/manage/device/deviceControlerCard'
+import ReportCard from '../../components/manage/Report/reportCard'
 
 export default function Index() {
     return (
@@ -10,7 +11,13 @@ export default function Index() {
             </div>
 
             <div>
-                <label className='flex mb-3 text-lg font-semibold'>Devices</label>
+                <label className='flex mb-3 text-lg font-bold'>Sensor Reports</label>
+                <div className='flex flex-wrap gap-3'>
+                    <ReportCard name='Thermometer' icon='' value={15} scale='C' />
+                </div>
+            </div>
+            <div>
+                <label className='flex mb-3 text-lg font-bold'>Devices</label>
                 <div className='flex flex-wrap gap-3'>
                     <DeviceControler icon='far fa-lightbulb' name='TV Main' />
                     <DeviceControler icon='far fa-wifi' name='Wifi' />
