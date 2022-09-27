@@ -9,7 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-/public/sw.js.map
+/techonit-desk/public/sw.js.map
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
